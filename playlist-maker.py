@@ -28,8 +28,9 @@ def process(args):
     music_files = []
     for dir in args.input_dirs:
         dir_files = process_dir(dir, args.recurse, args.case, args.type);
-        for file in dir_files:
-            music_files.append(file)
+        if (not dir_files is None):
+            for file in dir_files:
+                music_files.append(file)
     
 
     return music_files

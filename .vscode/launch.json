@@ -10,9 +10,9 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "cwd": "/home/razrback/Music/Rock",
-            // "args" : ["-R", "-c", "-o", "~/Music/all-rock.m3u", "-t", ".mp3", "-t", ".wav", "-f", ".m3u8", "./Music/Rock", "./Music/World"]
-            "args": ["-R","-S"]
+            "cwd": "/home/razrback/Music",
+            "args" : ["-R", "-o", "~/Music/all-rock.m3u", "./Rock"]
+            // "args": ["-R","-S"]
         }
     ]
 }
